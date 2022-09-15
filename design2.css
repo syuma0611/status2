@@ -1,3 +1,4 @@
+
 /**************************
  設定変更箇所
 **************************/
@@ -145,8 +146,11 @@ body {
 /************************
  デザイン
 ***********************/
-.MuiBadge-root {  display: var(--disp-icon) !important;top: var(--icon-position-x1) !important;margin-right: var(--icon-position-y1) !important;margin-bottom: var(--icon-position-x2) !important;margin-left: var(--icon-position-y2) !important;}
+.MuiBadge-root { top: var(--icon-position-x1) !important;margin-right: var(--icon-position-y1) !important;margin-bottom: var(--icon-position-x2) !important;margin-left: var(--icon-position-y2) !important;}
 
+.MuiAvatar-root {
+  display: var(--disp-icon) !important;  
+}
 
 /*  アイコンの中身関係 */
 .MuiAvatar-root {
