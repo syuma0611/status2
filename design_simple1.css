@@ -1,0 +1,71 @@
+/* 上下の調整（切れないように空間をつくってる） */
+.sc-cgFpzT {
+  top: 50px;
+  padding: 50px;
+}
+
+
+/*  キャラ駒を離す呪文 */
+.MuiBadge-root {
+  width: 160px;
+  height: 100px;
+} 
+
+
+/*  キャラ駒アイコンを消す(下のコメントアウトを消せば消える)*/
+/*.MuiAvatar-root {
+/*  display: none;  
+/*}
+
+
+/*  キャラ駒アイコンのサイズ変更 */
+.MuiAvatar-root {
+  width: 155px !important;
+  height: 155px !important;
+/*  アイコン位置調整（上から） */
+  align-items: start !important;
+
+/*  アイコンの形調整 */
+  margin-bottom: 5px !important;
+  border-radius: 50% !important;
+  border: solid 2px #ffffff !important;
+}
+
+
+
+/*  DEXいじり */
+.MuiBadge-badge {
+  width: 50px;
+  height: 50px;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  border-radius: 50%;
+  border: solid 2px #302833;
+  object-position: center top;
+}
+
+
+
+/* ステータス文字サイズ調整 */
+.MuiTypography-body2 {
+  font-size: 2rem;
+}
+
+/* ステータス高さ調整 */
+.MuiButtonBase-root+div+div>div>div>div>div,
+.MuiBadge-root+div>div>div ,
+.MuiBadge-root+div>div>div>div:nth-child(2)>div{
+  height: 48px;
+}
+
+/* margin分短くする */
+.MuiButtonBase-root+div+div>div>div>div,
+.MuiBadge-root+div>div>div {
+  width: 196px;
+}
+
+.MuiTypography-body2 {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
