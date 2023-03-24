@@ -14,6 +14,7 @@
   --dexicon-top: 20px; /**DEXの縦位置*/
   --dexicon-right: 10px; /**DEXの横位置*/
   --dex-border-color: solid 2px #2e2731; /**DEXの枠の色*/
+  --dexicon-align: flex;  /** DEX数値の配置位置 */
   
   /**************************
    アイコン
@@ -150,53 +151,51 @@ body {
   border:var(--icon-border-color) !important;
 }
 /*  アイコンの大きさ*/
-.XzfSx {
+.MuiAvatar-root {
   width: var(--icon-size) !important;
   height: var(--icon-size) !important;
   border-radius: var(--icon-radius) !important;
 }
 
  /* アイコンとステータスの配置 */
-.lmYMmZ {
+.kICzbE {
   display: var(--placement-icon-status) !important;
   margin-right: var(--space-between-status) !important;
   vertical-align: middle;
 }
 
  /* わからん */
-.dERcIh {
+.MuiBadge-badge {
   display: block !important;
 }
 
  /* ステータスの幅とか */
-.jrZSzN {
+.fheaZC {
   width: var(--width-status) !important;
+  height: var(--height-status) !important;
 }
  /* ステータスの配置とか */
-.jrZSzN:nth-child(1) {
+.fheaZC:nth-child(1) {
   margin-left: var(--left-space-status1) !important;
 }
-.jrZSzN:nth-child(2) {
+.fheaZC:nth-child(2) {
   margin-left: var(--left-space-status2) !important;
 }
-.jrZSzN:nth-child(3) {
+.fheaZC:nth-child(3) {
   margin-left: var(--left-space-status3) !important;
 }
-.jrZSzN:nth-child(4) {
+.fheaZC:nth-child(4) {
   margin-left: var(--left-space-status4) !important;
 }
-.jrZSzN:nth-child(5) {
+.fheaZC:nth-child(5) {
   margin-left: var(--left-space-status5) !important;
 }
-.jrZSzN:nth-child(6) {
+.fheaZC:nth-child(6) {
   margin-left: var(--left-space-status6) !important;
-}
-.jrZSzN {
-  height: var(--height-status) !important;
 }
 
  /* ステータス全体の高さとか */
-.fQlHbF {
+.fKOXEa {
   height: var(--height-total) !important;
   top: var(--top-total) !important;
   background: var(--color-total) !important;
@@ -205,7 +204,7 @@ body {
   border-radius: var(--radius-total) !important;
 }
  /* ステータス現在の高さとか */
-.iLZzml {
+.fciSXc {
   height: var(--height-remain) !important;
   top: var(--top-remain) !important;
   background: var(--color-remain) !important;
@@ -215,14 +214,14 @@ body {
   content: var(--image-total) !important;
 }
 /* ステータスの傾きとか */
-.iykfVv {
+.bikkAu {
   padding-top: var(--status-padding-top) !important;
   padding-bottom: var(--status-padding-bottom) !important;
   padding-left: var(--status-padding-left) !important;
   padding-right: var(--status-padding-right) !important;
 }
 /* 文字の大きさとか */
-.eNwtdn {
+.cELxbK {
   font-family: var(--item-font-family) !important;
   font-size: var(--item-font-size) !important;
   color: var(--item-font-color) !important;
@@ -237,7 +236,7 @@ body {
     var(--item-outline-color) 1px 0px 0px !important;
 }
 /* 文字の大きさとかその２ */
-.gpnnbN {
+.djQozH {
   font-family: var(--status-font-family) !important;
   font-size: var(--status-font-size) !important;
   color: var(--status-font-color) !important;
@@ -252,10 +251,10 @@ body {
     var(--status-outline-color) 1px 0px 0px !important;
 }
 /* 文字の色 */
-.bZlkmR {
+.kZDCrT  {
   color: var(--futei-font-color) !important;
 }
-.clruJQ {
+.lhFFvL {
   /* ステータスを一定以上の横幅にしたときに見切れないようにする設定 */
   overflow-y: visible !important;
   /** ステータスをひし形にした際に左側の角が見切れないようにする設定 */
@@ -270,6 +269,7 @@ body {
   font-size: var(--dex-font-size)!important;
   border-radius: var(--dexicon-radius) !important;
   border:var(--dex-border-color) !important;
+  display:var(--dexicon-align) !important;
 }
 
 /*  DEXの位置 */
