@@ -158,7 +158,7 @@ body {
 }
 
  /* アイコンとステータスの配置 */
-.kICzbE {
+.cvZwnw {
   display: var(--placement-icon-status) !important;
   margin-right: var(--space-between-status) !important;
   vertical-align: middle;
@@ -170,32 +170,32 @@ body {
 }
 
  /* ステータスの幅とか */
-.fheaZC {
+.iJGjsB {
   width: var(--width-status) !important;
   height: var(--height-status) !important;
 }
  /* ステータスの配置とか */
-.fheaZC:nth-child(1) {
+.iJGjsB:nth-child(1) {
   margin-left: var(--left-space-status1) !important;
 }
-.fheaZC:nth-child(2) {
+.iJGjsB:nth-child(2) {
   margin-left: var(--left-space-status2) !important;
 }
-.fheaZC:nth-child(3) {
+.iJGjsB:nth-child(3) {
   margin-left: var(--left-space-status3) !important;
 }
-.fheaZC:nth-child(4) {
+.iJGjsB:nth-child(4) {
   margin-left: var(--left-space-status4) !important;
 }
-.fheaZC:nth-child(5) {
+.iJGjsB:nth-child(5) {
   margin-left: var(--left-space-status5) !important;
 }
-.fheaZC:nth-child(6) {
+.iJGjsB:nth-child(6) {
   margin-left: var(--left-space-status6) !important;
 }
 
  /* ステータス全体の高さとか */
-.fKOXEa {
+.iWWCh  {
   height: var(--height-total) !important;
   top: var(--top-total) !important;
   background: var(--color-total) !important;
@@ -204,7 +204,7 @@ body {
   border-radius: var(--radius-total) !important;
 }
  /* ステータス現在の高さとか */
-.fciSXc {
+.dZilmu {
   height: var(--height-remain) !important;
   top: var(--top-remain) !important;
   background: var(--color-remain) !important;
@@ -214,14 +214,14 @@ body {
   content: var(--image-total) !important;
 }
 /* ステータスの傾きとか */
-.bikkAu {
+.gkoAMQ {
   padding-top: var(--status-padding-top) !important;
   padding-bottom: var(--status-padding-bottom) !important;
   padding-left: var(--status-padding-left) !important;
   padding-right: var(--status-padding-right) !important;
 }
 /* 文字の大きさとか */
-.cELxbK {
+.fwTPxw {
   font-family: var(--item-font-family) !important;
   font-size: var(--item-font-size) !important;
   color: var(--item-font-color) !important;
@@ -236,7 +236,7 @@ body {
     var(--item-outline-color) 1px 0px 0px !important;
 }
 /* 文字の大きさとかその２ */
-.djQozH {
+.gpjypk {
   font-family: var(--status-font-family) !important;
   font-size: var(--status-font-size) !important;
   color: var(--status-font-color) !important;
@@ -251,10 +251,10 @@ body {
     var(--status-outline-color) 1px 0px 0px !important;
 }
 /* 文字の色 */
-.kZDCrT  {
+.iNVszd {
   color: var(--futei-font-color) !important;
 }
-.lhFFvL {
+.MfEgW {
   /* ステータスを一定以上の横幅にしたときに見切れないようにする設定 */
   overflow-y: visible !important;
   /** ステータスをひし形にした際に左側の角が見切れないようにする設定 */
