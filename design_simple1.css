@@ -1,8 +1,9 @@
 /* 上下の調整（切れないように空間をつくってる） */
-.sc-foDcoF {
+#root > div > div {
   top: 50px;
   padding: 50px;
 }
+
 
 /*  キャラ駒を離す呪文 */
 .MuiBadge-root {
