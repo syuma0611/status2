@@ -141,12 +141,17 @@ body {
 ***********************/
 
 .MuiBadge-root {
-  display: var(--disp-icon) !important;
   top: var(--icon-position-x1) !important;
   margin-right: var(--icon-position-y1) !important;
   margin-bottom: var(--icon-position-x2) !important;
   margin-left: var(--icon-position-y2) !important;
 }
+
+.MuiAvatar-root {
+ display: var(--disp-icon) !important;
+}
+
+
 .MuiAvatar-root {
   width: var(--icon-size) !important;
   height: var(--icon-size) !important;
