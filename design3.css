@@ -146,7 +146,7 @@ body {
   margin-bottom: var(--icon-position-x2) !important;
   margin-left: var(--icon-position-y2) !important;
 }
-
+ /* アイコンの表示、非表示制御 */
 .MuiAvatar-root {
  display: var(--disp-icon) !important;
 }
