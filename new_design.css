@@ -142,3 +142,11 @@ body.transparent {
 [color="secondary"] {
     color: var(--status-font-secondary-color)
 }
+
+:root {
+    --avatar-padding: 0;
+    --status-denom-font-size: 0;
+    --status-width: 100px;
+    --status-column: 3;/* 表示列数 */
+    --status-font-size: 1.2rem!/* フォントサイズ */
+}
