@@ -28,7 +28,6 @@
     --status-border-image: var(--border-image, url());
     --status-border-radius: var(--border-radius, 0);
     --status-border-shadow: var(--border-shadow, 10);
-    --font-style:GS創英角ﾎﾟｯﾌﾟ体;
 }
 
 /* OBS */
